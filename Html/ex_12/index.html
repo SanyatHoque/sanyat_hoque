@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+      <h1>Create User</h1>
+      <hr>
+
+      <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>User Form</legend>
+        <br>
+        <label>Name:</label>
+        <input type="text" name="username" placeholder="Please input a username" size="30" maxlength="12">
+        <label>Password:</label>
+        <input type="password" name="pass" placeholder="password" size="30" maxlength="8">
+        
+        <!--<input type="submit" name="login" value="login">-->
+        <br>
+        <br>
+        <br>
+        <label>Select your fav vid games</label>
+        <input type="radio" name="games" value="true" checked="checked"> Fifa
+        <input type="radio" name="games" value="false"> NHL
+        <input type="radio" name="games" value="false"> Resedential Evil
+        <input type="radio" name="games" value="false"> Uncharted
+
+        <br>
+        <br>
+        <br>
+        <label>Select your fav vid games</label>
+        <input type="checkbox" name="games" value="Fifa" checked="checked"> Fifa
+        <input type="checkbox" name="games" value="NHL"> NHL
+        <input type="checkbox" name="games" value="Residential_Evil"> Resedential Evil
+        <input type="checkbox" name="games" value="Uncharted"> Uncharted
+
+        <input type="hidden" name="userid" value="2300" >
+
+        <!--<input type="submit" name="login" value="login">-->
+        <br>
+        <br>
+        <input name="image"  type="image" src="img/reg.png" width="100">
+
+      </fieldset>
+      </form>
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+
+
+h1 {
+  color: Red;
+}
+
+p {
+  color: green;
+}
+p1 {
+  color: orange;
+}
+
+div {
+  color: yellow;
+}
+div2 {
+  color: blue;
+}
+
+a[href="#"] { 
+  color: black; 
+}
+
+a1[href="#"] { 
+  color: yellow; 
+}
+

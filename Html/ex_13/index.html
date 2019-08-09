@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+<body>
+      <h1>Create User</h1>
+      <hr>
+
+      <form action="create-user.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>User Form</legend>
+        
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="name" size="30" maxlength="12">
+        <!--<label>Password:</label>
+        <input type="password" name="pass" placeholder="password" size="30" maxlength="8">
+        -->
+        <!--<input type="submit" name="login" value="login">-->
+        <br>
+        <br>
+        <br>
+        
+
+        <label>Select the following options:</label>
+            <br>
+            <br>
+        <select name="movies">
+            <option value="">Please select a movie</option>
+            <option value="deadpool">deadpool</option>
+            <option value="batman_vs_supermoon">Batman vs Superman</option>
+            <option value="civil_war">Cap America Civil War</option>
+            <option value="doctor_strange">Doctor Strange</option>
+            <option value="suicide_squad">Suicided squad</option>
+            <option value="apocolypse">apolcolypese</option>
+            <option value="gotg_vol2">Guardians of galaxy</option>
+            <option value="justice_leage">Justice league</option>
+            <option value="logan">Logan</option>
+            <option value="homecoming">Homecoming</option>
+            <option value="wonder_woman" selected>Wonder woman</option>
+            <option value="thor_ragnarok">Thor: Ragnarok</option>
+            <option value="black_panther">Black Panther</option>
+          </select>
+          <br>
+          <br>
+          <textarea name="bio" cols="100" rows="20" >please write your bio</textarea>
+          <br>
+          <br>
+           <!--<button name="browse" class="browse-btn">Browse Files</button>-->
+           <input type="file" name="fileToUpload" id="fileToUpload">
+            <br>
+            <br>
+          <input type="reset" name="Reset" value="Reset" />
+            <br>
+            <br>
+          <button name="create-user" value="create" id="create-user">Add New User</button>
+      </fieldset>
+      </form>
+    </body>
+
+</html>

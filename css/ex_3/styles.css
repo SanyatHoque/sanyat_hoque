@@ -1,0 +1,14 @@
+h1 {
+  color: Violet;
+}
+p {
+  color: gray;
+}
+a[href="news.html"] { 
+  color: pink; 
+}
+a[href="home.html"] { 
+  color: green; 
+}
+
+

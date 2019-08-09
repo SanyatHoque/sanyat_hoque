@@ -1,0 +1,9 @@
+/* <a> elements with an href containing "example" */
+
+p > img {
+  vertical-align: text-top;
+}
+
+button > img {
+  vertical-align: text-top;
+}

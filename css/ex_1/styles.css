@@ -1,0 +1,18 @@
+
+
+h1 {
+  color: pink;
+}
+
+p {
+  color: green;
+}
+
+div {
+  color: yellow;
+}
+
+a[href="#"] { 
+  color: black; 
+}
+

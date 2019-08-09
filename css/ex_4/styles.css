@@ -1,0 +1,26 @@
+
+
+div[id="button"]{
+  color: brown;
+}
+label[id="id"]{
+  color: pink;
+}
+input[id="username"]{
+  color: gray;
+}
+input[id="password"]{
+  color: gray;
+}
+input[id="button"]{
+  color: brown;
+}
+* {
+  color: green;
+}
+span[class="red"]{
+  color: red;
+}
+a[href="#"] {
+   color: red; 
+  }

@@ -1,0 +1,41 @@
+/* <a> elements with an href containing "example" */
+body {
+    font-weight: bold;
+  }
+a[href$=".com"] {
+    color : red
+  }
+/*a[href*="facebook"] {
+    color : purple
+  }
+h1[id="main"] {
+    color : lawngreen
+}*/
+a:hover {
+    color: orange;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+h1::first-letter {
+    color: black;
+  } 
+header h1 {
+    color : rgb(245, 128, 128)
+}
+section > h1 {
+    color : coral
+}
+* {
+    color: rgb(228, 56, 199);
+  }
+li[id="first"] {
+    color : black
+}
+foot > p {
+    color : black;
+}
+foot > p[id="second"] {
+    color : rgba(199, 170, 5, 0.548)
+}
